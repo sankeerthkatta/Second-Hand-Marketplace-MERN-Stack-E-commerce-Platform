@@ -1,7 +1,5 @@
 # Second-Hand-Marketplace-MERN-Stack-E-commerce-Platform
 
-# Second-Hand Marketplace – MERN Stack E-commerce Platform
-
 A full-stack web application for buying and selling second-hand products, built with the MERN stack.
 
 ## Features
