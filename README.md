@@ -27,18 +27,24 @@ A full-stack web application for buying and selling second-hand products, built 
    git clone https://github.com/sankeerthkatta/Second-Hand-Marketplace-MERN-Stack-E-commerce-Platform.git
 
 2. **Install dependencies:**
+   ```sh
    cd Backend
    npm install
    cd ../Frontend
    npm install
-   
+   ```
+
 3. **Configure environment variables:**
    Copy .env.example to .env in the Backend folder and update values.
 
 4. **Run the backend server:**
+   ```sh
    cd Backend
    npm run dev
+   ```
 
 5. **Run the frontend app:**
+   ```sh
    cd ../Frontend
    npm run dev
+   ```
