@@ -1,0 +1,124 @@
+/* src/components/Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 20px;           /* Increased vertical padding */
+  min-height: 38px;             /* Increased navbar height */
+  background-color: #1976d2;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.logo-image {
+  height: 58px;                 /* Increased logo height */
+  width: auto;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.logo-text {
+  font-size: 28px;              /* Increased font size */
+  font-weight: bold;
+}
+
+.search-box {
+  flex-grow: 1;
+  margin: 0 20px;
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+}
+
+.search-container {
+  display: flex;
+  flex-grow: 1;
+  margin: 0 20px;
+  position: relative;
+  max-width: 750px;             /* Limit max width for search area */
+  min-width: 250px;
+}
+
+.search-box {
+  flex-grow: 1;
+  padding: 14px 40px 14px 16px; /* Increased vertical padding */
+  border-radius: 4px;
+  border: none;
+  width: 75%;                   /* Decreased width to 75% (1/4 less) */
+  font-size: 18px;              /* Larger text */
+}
+
+.search-button {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #1976d2;
+  cursor: pointer;
+  padding: 20px;
+  font-size: 24px;              /* Larger icon */
+}
+
+.login-button {
+  background-color: white;
+  color: #1976d2;
+  padding: 14px 20px;           /* Larger buttons */
+  text-decoration: none;
+  border-radius: 6px;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 18px;
+}
+.login-button:hover {
+  background-color: #e3f2fd;
+}
+
+.sell-button {
+  background-color: white;
+  color: #1976d2;
+  padding: 14px 20px;           /* Larger buttons */
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  border: none;
+  align-items: center;
+  gap: 5px;
+  margin-right: 15px;
+  font-size: 18px;
+}
+
+.sell-button:hover {
+  background-color: #e3f2fd;
+}
+
+.icon-links {
+  display: flex;
+  gap: 24px;                    /* More space between icons */
+  font-size: 34px;              /* Larger icons */
+  align-items: center;
+  margin-right: 28px;
+}
+
+.icon-links a {
+  color: white;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.icon-links a:hover {
+  transform: scale(1.2);
+}
