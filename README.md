@@ -18,7 +18,6 @@ A full-stack web application for buying and selling second-hand products, built 
 - **Backend:** Node.js, Express.js, MongoDB, Mongoose
 - **Authentication:** JWT
 - **File Uploads:** Multer
-- **Payments:** Razorpay
 - **Real-time:** Socket.io
 
 ## Getting Started
